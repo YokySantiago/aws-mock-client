@@ -1,0 +1,21 @@
+{
+  "name": "aws-mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "listQueuesMock": "node listQueuesMock",
+    "receiveMessageMock": "node receiveMessageMock",
+    "snsQuickMock": "node snsQuickMock"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk-client-mock": "^0.5.5"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sns": "^3.33.0",
+    "@aws-sdk/client-sqs": "^3.33.0"
+  }
+}
